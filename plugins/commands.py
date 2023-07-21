@@ -25,7 +25,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👻 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/New_Moviee_hindi"),
+                    InlineKeyboardButton('👻 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/bots_up"),
                     InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻', url=CHNL_LNK)
@@ -172,7 +172,7 @@ async def start(client, message):
                           InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                           InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+4nzja42ELQwzOWVl")
+                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/bots_up")
                          ]
                         ]
                     )
@@ -336,7 +336,7 @@ async def start(client, message):
                       InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/+4nzja42ELQwzOWVl")
+                      InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/bots_up")
                      ]
                     ]
                 )
@@ -394,14 +394,14 @@ async def start(client, message):
                       InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/+4nzja42ELQwzOWVl")
+                      InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/bots_up")
                      ]
                     ]
                 )
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@New_Moviee_hindi ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@bots_up ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -451,7 +451,7 @@ async def start(client, message):
               InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/+4nzja42ELQwzOWVl")
+              InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/bots_up")
              ]
             ]
         )
